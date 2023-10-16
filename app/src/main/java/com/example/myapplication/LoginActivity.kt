@@ -73,7 +73,7 @@ class LoginActivity : AppCompatActivity() {
                         }
 
                         // Redirigir a la siguiente actividad
-                        val intent = Intent(this@LoginActivity, AlbumListActivity::class.java)
+                        val intent = Intent(this@LoginActivity, MostrarLetras::class.java)
                         startActivity(intent)
                         finish() // Cierra la actividad actual para que el usuario no pueda volver atrás.
                     }
